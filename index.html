@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fahad Fikri | Software Engineering Student</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     
 </head>
 <body>
 
-    ##Navigation
+    <!-- Navigation -->
     <nav id="navbar">
         <div class="nav-content">
             <a href="#home" class="logo">FF.</a>
@@ -25,7 +25,7 @@
 
     <main class="container">
         
-        ##Hero Section
+         <!-- Hero Section -->
         <section id="home" class="fade-in-up">
             <p class="intro-text">Hi, my name is</p>
             <h1>Fahad Zaharuddin Fikri.</h1>
@@ -34,6 +34,7 @@
                 Software Engineering student at APU bridging the gap between infrastructure and code. 
                 I build robust databases, deploy web solutions, and write logic that solves real-world problems.
             </p>
+
             <div class="btn-group">
                 <a href="mailto:fah13441@gmail.com" class="btn btn-primary">
                     <i class="fa-solid fa-envelope"></i> fah13441@gmail.com
@@ -42,9 +43,19 @@
                     <i class="fa-brands fa-github"></i> GitHub
                 </a>
             </div>
+        </section> <section id="quote-generator" class="fade-in-up" style="padding: 40px 0; text-align: center; border-top: none;">
+            <div class="quote-box">
+                <p id="quote-text" class="quote-text">"Loading system state..."</p>
+                <p id="quote-author" class="quote-author">- System</p>
+                <button id="new-quote-btn" class="btn btn-secondary" style="margin-top: 16px; font-size: 0.8rem; padding: 8px 16px;">
+                    <i class="fa-solid fa-terminal"></i> Change Quote
+                </button>
+            </div>
         </section>
 
-        ##About Section
+        <section id="about" class="fade-in-up">
+
+        <!-- About Section -->
         <section id="about" class="fade-in-up">
             <h3 class="section-title"><span>01.</span> About Me</h3>
             <div class="grid-2">
@@ -81,39 +92,39 @@
             <div class="skills-container">
                 <span class="skill-tag">Python</span>
                 <span class="skill-tag">Java</span>
-                <span class="skill-tag">C</span>
+                <span class="skill-tag">C#</span>
                 <span class="skill-tag">JavaScript</span>
                 <span class="skill-tag">HTML/CSS</span>
                 <span class="skill-tag">R</span>
-                <span class="skill-tag">Database Architecture</span>
-                <span class="skill-tag">Unity & UE5</span>
+                <span class="skill-tag">Unity</span>
                 <span class="skill-tag">PC Hardware</span>
-                <span class="skill-tag">Web Deployment</span>
+                <span class="skill-tag">Web Development</span>
             </div>
         </section>
 
-        ##Projects Section
+        <!-- Projects Section -->
         <section id="projects" class="fade-in-up">
             <h3 class="section-title"><span>03.</span> Software Projects</h3>
             <div class="grid-2">
                 
                 <div class="project-card">
                     <div class="project-header">
-                        <i class="fa-regular fa-folder"></i>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <i class="fa-brands fa-python text-4xl text-blue-500"></i>
+                        <a href="https://github.com/fah13441/Python-Scientific-Calculator" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
-                    <h4>Grand Stay Hotel Management</h4>
-                    <p>Architected backend frameworks and authored comprehensive technical documentation for a scalable hotel management application, focusing heavily on database design.</p>
+                    <h4>Python Scientific Calculator</h4>
+                    <p>A fully functional, object-oriented desktop calculator built from scratch using Python and the Tkinter GUI library. Features include standard arithmetic and advanced trigonometric functions.</p>
                     <div class="tech-stack">
-                        <span>Database</span>
-                        <span>Backend Logic</span>
+                        <span>Python</span>
+                        <span>Tkinter</span>
+                        <span>Math API</span>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-header">
                         <i class="fa-regular fa-folder"></i>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/DelRichard/EnvoTheGame.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                     <h4>Envo Game Jam & 2D RPGs</h4>
                     <p>I helped my team in Level Design & Music/Sound Engineering in a recent Game Jam. I am also currently trying to make my own 2D game in my downtime.</p>
@@ -139,25 +150,22 @@
 
                 <div class="project-card">
                     <div class="project-header">
-                        <i class="fa-regular fa-folder"></i>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <i class="fa-solid fa-list-check text-4xl text-blue-500"></i>
+                        <a href="https://github.com/fah13441/To-Do-List-App-Website.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
-                    <h4>Web Deployments</h4>
-                    <p>Built, managed, and hosted functional web deployments while handling third-party vendor coordination for amateur and real-world clients.</p>
+                    <h4>Persistent To-Do Application</h4>
+                    <p>A vanilla JavaScript web application focused on state management and DOM manipulation. Features local data persistence so users never lose their tasks after a page refresh.</p>
                     <div class="tech-stack">
+                        <span>JavaScript</span>
                         <span>HTML/CSS</span>
-                        <span>JS</span>
-                        <span>Wix</span>
-                        <span>Webflow</span>
-                        <span>WordPress</span>
-
+                        <span>LocalStorage API</span>
                     </div>
                 </div>
 
             </div>
         </section>
 
-        ##Experience Section
+        <!-- Experience Section -->
         <section id="experience" class="fade-in-up">
             <h3 class="section-title"><span>04.</span> Experience</h3>
             
@@ -196,7 +204,7 @@
             </div>
         </section>
 
-        ##Hobbies Section
+        <!-- Hobbies Section -->
         <section class="fade-in-up">
             <h3 class="section-title"><span>05.</span> Beyond The Code</h3>
             <div class="grid-3">
